@@ -1,0 +1,32 @@
+.innerDiv{
+    background-color: transparent;
+    width: 100%;
+    box-shadow: none;
+    border: 0;
+    flex-direction: row;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.innerList{
+    display: none;
+}
+
+.outerList li{
+    background-color: yellow;
+    color: rgb(98, 145, 231);
+    margin: 5px;
+}
+
+.innerList li{
+    border: none;
+    color:yellow;
+    background-color: rgb(98, 145, 231);
+}
+
+figure img{
+    width: 400px;
+    margin: 10px;
+}
+

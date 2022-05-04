@@ -1,0 +1,57 @@
+main{
+    flex-direction: row;
+    align-items:unset;
+    justify-content: center;
+    color: rgb(98, 145, 231);
+    
+}
+
+#bio{
+    float:left;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#bio h1{
+    font-size: 30px;
+}
+
+img{
+    max-width: 100px;
+}
+
+.intro{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    font-size: 80px;
+}
+
+.slider{
+    background-color: rgb(98, 145, 231);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro h1{
+    overflow: hidden;
+}
+
+.intro span{
+    transform: translateY(100%);
+    display: inline-block;
+}

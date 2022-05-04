@@ -1,0 +1,11 @@
+img{
+    max-width: 100%;
+}
+
+main p{
+    display: none;
+}
+
+main img{
+    display: none;
+}
